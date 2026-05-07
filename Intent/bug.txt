@@ -1,0 +1,30 @@
+下面这条数据有误 数据集对 datetime_date字段 按照12月进行修改  
+  {
+    "text": "安徽电视台12月18号晚上10:10的电视剧",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电视剧",
+      "datetime_date": "2月18号",
+      "datetime_time": "晚上10:10",
+      "tvchannel": "安徽电视台"
+    }
+  },
+
+这条数据分词有误 加上下面这句代码可以实现正确分词
+# 自定义词典，避免分词将CCTV7拆开
+new_tokens = ['CCTV7']
+tokenizer.add_tokens(new_tokens)
+# 这样也会有问题，bert模型是21128个token，加一个就是21129个token了，如果自定义词典的token超过这个数量，就会报错，目前先做删除处理吧
+# (word_embeddings): Embedding(21128, 768, padding_idx=0)
+
+    {
+    "text": "搜一下CCTV74月15号播出新编辑部的故事呢",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+        "datetime_date": "4月15号",
+        "name": "新编辑部的故事",
+        "tvchannel": "CCTV7"
+    }
+},

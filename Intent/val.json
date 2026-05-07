@@ -1,0 +1,4488 @@
+[
+    {
+        "text": "来首苏轼的词。",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "苏轼"
+        }
+    },
+    {
+        "text": "BTVKAKU少儿",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "BTVKAKU少儿"
+        }
+    },
+    {
+        "text": "给王涛打电话",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "王涛"
+        }
+    },
+    {
+        "text": "我想看高尔夫网球频道",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "高尔夫网球频道"
+        }
+    },
+    {
+        "text": "CCTV6电影高清",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "CCTV6电影",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "天津电视台的国际频道，拜托了哈",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "category": "国际",
+            "name": "天津电视台"
+        }
+    },
+    {
+        "text": "广州到南宁的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南宁",
+            "startLoc_city": "广州"
+        }
+    },
+    {
+        "text": "找一下詹姆斯卡梅隆拍的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "詹姆斯卡梅隆",
+            "category": "电影"
+        }
+    },
+    {
+        "text": "青岛海信股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "海信"
+        }
+    },
+    {
+        "text": "麻烦您能否帮我调频97.1汉中音乐广播电台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "97.1",
+            "name": "汉中音乐广播电台"
+        }
+    },
+    {
+        "text": "打开浦口新闻综合频道",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "浦口新闻综合频道"
+        }
+    },
+    {
+        "text": "现在打开你的官网",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "你的官网"
+        }
+    },
+    {
+        "text": "文娱播报",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "文娱播报"
+        }
+    },
+    {
+        "text": "我是说我要看一起又看流星雨",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "一起又看流星雨"
+        }
+    },
+    {
+        "text": "来一个灯谜，你。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "灯谜"
+        }
+    },
+    {
+        "text": "我想看珍珠港",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "珍珠港"
+        }
+    },
+    {
+        "text": "打电话给大培",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "大培"
+        }
+    },
+    {
+        "text": "湘潭到常德怎么走",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "常德",
+            "startLoc_city": "湘潭"
+        }
+    },
+    {
+        "text": "你的全部应答内容",
+        "domain": "email",
+        "intent": "REPLAY_ALL",
+        "slots": {}
+    },
+    {
+        "text": "甘肃台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "甘肃台"
+        }
+    },
+    {
+        "text": "老朗诵首古诗。",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "呃发信息给周玉豪",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "周玉豪"
+        }
+    },
+    {
+        "text": "查询东吴证券的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "东吴证券"
+        }
+    },
+    {
+        "text": "给原波发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "原波"
+        }
+    },
+    {
+        "text": "讯飞科技股票价格",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "讯飞科技"
+        }
+    },
+    {
+        "text": "搜王菲演唱会",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "王菲",
+            "tag": "演唱会"
+        }
+    },
+    {
+        "text": "高淳转播2",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "高淳转播2"
+        }
+    },
+    {
+        "text": "狸猫换太子",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "狸猫换太子"
+        }
+    },
+    {
+        "text": "查最近的电影。",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "看东方",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "东方"
+        }
+    },
+    {
+        "text": "搜索逃学威龙第二部",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "逃学威龙",
+            "season": "第二部"
+        }
+    },
+    {
+        "text": "发信息给学超",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "学超"
+        }
+    },
+    {
+        "text": "我不吃英文怎么讲",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "我不吃",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "打开互联网啦",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {}
+    },
+    {
+        "text": "看电影啊",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影"
+        }
+    },
+    {
+        "text": "搜索蒙牛的股市行情",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "蒙牛"
+        }
+    },
+    {
+        "text": "发信息给老婆说我不回家吃饭了",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "我不回家吃饭了",
+            "name": "老婆"
+        }
+    },
+    {
+        "text": "想唱就唱",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "想唱就唱"
+        }
+    },
+    {
+        "text": "枣庄到淄博的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "淄博",
+            "startLoc_city": "枣庄"
+        }
+    },
+    {
+        "text": "你给我说几个谜语。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "打开搜狐网首页",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "搜狐网"
+        }
+    },
+    {
+        "text": "浙江台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "浙江台"
+        }
+    },
+    {
+        "text": "狄仁杰之通天帝国视频",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "狄仁杰之通天帝国"
+        }
+    },
+    {
+        "text": "查寻天龙集团的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "天龙集团"
+        }
+    },
+    {
+        "text": "导航去科大讯飞",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "科大讯飞"
+        }
+    },
+    {
+        "text": "最美的时光",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "最美的时光"
+        }
+    },
+    {
+        "text": "到北京的火车班次",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京"
+        }
+    },
+    {
+        "text": "你帮我打开网站",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {}
+    },
+    {
+        "text": "北疆战士",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "北疆战士"
+        }
+    },
+    {
+        "text": "明天去滁州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "滁州",
+            "startDate_date": "明天"
+        }
+    },
+    {
+        "text": "康熙大帝",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "康熙大帝"
+        }
+    },
+    {
+        "text": "13年的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "datetime_date": "13年"
+        }
+    },
+    {
+        "text": "刘诗诗主演过的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "刘诗诗",
+            "artistRole": "主演",
+            "category": "电影"
+        }
+    },
+    {
+        "text": "我要猜一个字谜。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    },
+    {
+        "text": "歧路兄弟",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "歧路兄弟"
+        }
+    },
+    {
+        "text": "导航到山东省菏泽市王浩屯镇",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "菏泽市",
+            "endLoc_area": "王浩屯镇",
+            "endLoc_province": "山东省"
+        }
+    },
+    {
+        "text": "有你才幸福",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "有你才幸福"
+        }
+    },
+    {
+        "text": "中国工商银行的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国工商银行"
+        }
+    },
+    {
+        "text": "安阳到郑州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "郑州",
+            "startLoc_city": "安阳"
+        }
+    },
+    {
+        "text": "查询科大讯飞的股价",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "科大讯飞"
+        }
+    },
+    {
+        "text": "把王世怀的号码发给乔丽君",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "王世怀",
+            "receiver": "乔丽君"
+        }
+    },
+    {
+        "text": "我想看董浩配音的动漫",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "董浩",
+            "artistRole": "配音",
+            "category": "动漫"
+        }
+    },
+    {
+        "text": "你好我想看电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影"
+        }
+    },
+    {
+        "text": "中国最强音",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国最强音"
+        }
+    },
+    {
+        "text": "这条mail的信息发送给xxx某",
+        "domain": "email",
+        "intent": "FORWARD",
+        "slots": {
+            "name": "xxx某"
+        }
+    },
+    {
+        "text": "搜索这道题怎么做",
+        "domain": "homework",
+        "intent": "SEARCH",
+        "slots": {}
+    },
+    {
+        "text": "把许琦彪的号码发给徐鹏",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "许琦彪",
+            "receiver": "徐鹏"
+        }
+    },
+    {
+        "text": "发信息给董昊老婆",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "董昊老婆"
+        }
+    },
+    {
+        "text": "宫崎骏动画电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "宫崎骏",
+            "category": "电影",
+            "tag": "动画"
+        }
+    },
+    {
+        "text": "高清深圳台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "深圳台",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "搜索下绿巨人",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "绿巨人"
+        }
+    },
+    {
+        "text": "打个谜语吧！",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "AXN",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "AXN"
+        }
+    },
+    {
+        "text": "查一下上海到苏州的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "苏州",
+            "startLoc_city": "上海"
+        }
+    },
+    {
+        "text": "南京到厦门的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "厦门",
+            "startLoc_city": "南京"
+        }
+    },
+    {
+        "text": "影视流星花园",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "影视",
+            "name": "流星花园"
+        }
+    },
+    {
+        "text": "把张新涛电话发给常胜宾",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "张新涛",
+            "receiver": "常胜宾"
+        }
+    },
+    {
+        "text": "胜者即是正义",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "胜者即是正义"
+        }
+    },
+    {
+        "text": "打电话给丹丹移动",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "丹丹",
+            "teleOperator": "移动"
+        }
+    },
+    {
+        "text": "打电话给胖头",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "胖头"
+        }
+    },
+    {
+        "text": "查询昆明到合肥的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "合肥",
+            "startLoc_city": "昆明"
+        }
+    },
+    {
+        "text": "中水渔业的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中水渔业"
+        }
+    },
+    {
+        "text": "播七龙珠",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "七龙珠"
+        }
+    },
+    {
+        "text": "麻烦您可不可以帮我调频99.3嘉善人民广播电台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "99.3",
+            "name": "嘉善人民广播电台"
+        }
+    },
+    {
+        "text": "合肥到芜湖的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "芜湖",
+            "startLoc_city": "合肥"
+        }
+    },
+    {
+        "text": "你叫什么名字英文怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "你叫什么名字",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "妈妈的花样年华",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "妈妈的花样年华"
+        }
+    },
+    {
+        "text": "帮我切换到湖南卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "湖南卫视"
+        }
+    },
+    {
+        "text": "中国银行股票怎么样",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国银行"
+        }
+    },
+    {
+        "text": "请帮我调频89.7上虞人民广播电台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "89.7",
+            "name": "上虞人民广播电台"
+        }
+    },
+    {
+        "text": "打开江苏卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "江苏卫视"
+        }
+    },
+    {
+        "text": "智取威虎山",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "智取威虎山"
+        }
+    },
+    {
+        "text": "后天上海到烟台的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "烟台",
+            "startDate_date": "后天",
+            "startLoc_city": "上海"
+        }
+    },
+    {
+        "text": "我要查看全部回复内容",
+        "domain": "email",
+        "intent": "REPLAY_ALL",
+        "slots": {}
+    },
+    {
+        "text": "我想看一下科大讯飞的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "科大讯飞"
+        }
+    },
+    {
+        "text": "下载音乐排行榜第一个歌曲",
+        "domain": "music",
+        "intent": "DOWNLOAD",
+        "slots": {}
+    },
+    {
+        "text": "胜女的代价电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "name": "胜女的代价"
+        }
+    },
+    {
+        "text": "给我写一个新邮件",
+        "domain": "email",
+        "intent": "CREATE",
+        "slots": {}
+    },
+    {
+        "text": "看上周五的爸爸我去哪儿",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "上周五",
+            "name": "爸爸我去哪儿"
+        }
+    },
+    {
+        "text": "睡觉用英文怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "睡觉",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "告诉我西安的位置",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_city": "西安"
+        }
+    },
+    {
+        "text": "我喜欢亚楠用英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "我喜欢亚楠",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "发短信给王小露的",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "王小露"
+        }
+    },
+    {
+        "text": "包钢稀土股票价格",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "包钢稀土"
+        }
+    },
+    {
+        "text": "找湖南卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "湖南卫视"
+        }
+    },
+    {
+        "text": "东方台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "东方台"
+        }
+    },
+    {
+        "text": "半夜不要照镜子",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "半夜不要照镜子"
+        }
+    },
+    {
+        "text": "带我去新都会",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "新都会"
+        }
+    },
+    {
+        "text": "搜索花千骨插曲",
+        "domain": "music",
+        "intent": "SEARCH",
+        "slots": {
+            "category": "花千骨插曲"
+        }
+    },
+    {
+        "text": "查找电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影"
+        }
+    },
+    {
+        "text": "我是特种兵二",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "我是特种兵二"
+        }
+    },
+    {
+        "text": "宁波一台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "宁波一台"
+        }
+    },
+    {
+        "text": "江苏阳光的股票怎么样了",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "江苏阳光"
+        }
+    },
+    {
+        "text": "忍者之路",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "忍者之路"
+        }
+    },
+    {
+        "text": "看看郑晓龙导演的甄嬛传",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "郑晓龙",
+            "artistRole": "导演",
+            "name": "甄嬛传"
+        }
+    },
+    {
+        "text": "搜索国外大片",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "国外",
+            "category": "大片"
+        }
+    },
+    {
+        "text": "打开索尼官方网站",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "索尼"
+        }
+    },
+    {
+        "text": "明天有没有洛阳到西安的高铁",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "高铁",
+            "endLoc_city": "西安",
+            "startDate_date": "明天",
+            "startLoc_city": "洛阳"
+        }
+    },
+    {
+        "text": "请帮我调频97.5湖南人民广播电台文艺台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "97.5",
+            "name": "湖南人民广播电台文艺台"
+        }
+    },
+    {
+        "text": "福建电视台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "福建电视台"
+        }
+    },
+    {
+        "text": "永辉超市股份的价格",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "永辉超市"
+        }
+    },
+    {
+        "text": "查下温州到杭州的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "杭州",
+            "startLoc_city": "温州"
+        }
+    },
+    {
+        "text": "好无聊哇有什么好看的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "scoreDescr": "好看"
+        }
+    },
+    {
+        "text": "知青",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "知青"
+        }
+    },
+    {
+        "text": "招商银行港股的股价",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "招商银行"
+        }
+    },
+    {
+        "text": "查一下合肥到淮南明天的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "淮南",
+            "startDate_date": "明天",
+            "startLoc_city": "合肥"
+        }
+    },
+    {
+        "text": "浙江电视台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "浙江电视台"
+        }
+    },
+    {
+        "text": "动画片",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "片",
+            "tag": "动画"
+        }
+    },
+    {
+        "text": "替我回复一下这封邮件",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {}
+    },
+    {
+        "text": "CCTV8高清电视剧",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "tvchannel": "CCTV8高清"
+        }
+    },
+    {
+        "text": "拨打陈艾电话",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "陈艾"
+        }
+    },
+    {
+        "text": "打一个灯谜啊，你。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "灯谜"
+        }
+    },
+    {
+        "text": "平阳怎么走吗",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_area": "平阳"
+        }
+    },
+    {
+        "text": "情景剧电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "tag": "情景"
+        }
+    },
+    {
+        "text": "有上海到昆山的火车吗",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "昆山",
+            "startLoc_city": "上海"
+        }
+    },
+    {
+        "text": "给秦丽香发信息",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "秦丽香"
+        }
+    },
+    {
+        "text": "人福医药股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "人福医药"
+        }
+    },
+    {
+        "text": "最近有什么好电影吗？",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "灯谜惑下。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "灯谜"
+        }
+    },
+    {
+        "text": "我要打开百度",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "百度"
+        }
+    },
+    {
+        "text": "看空霸",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "空霸"
+        }
+    },
+    {
+        "text": "查看滁州到南京的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南京",
+            "startLoc_city": "滁州"
+        }
+    },
+    {
+        "text": "从观音桥到重庆市图书馆怎么走",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "重庆市图书馆",
+            "startLoc_poi": "观音桥"
+        }
+    },
+    {
+        "text": "从我这里去芙蓉区政府怎么去",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "芙蓉区政府"
+        }
+    },
+    {
+        "text": "所以查学西宁特钢的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "西宁特钢"
+        }
+    },
+    {
+        "text": "也来个灯谜吗？",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "灯谜"
+        }
+    },
+    {
+        "text": "女人的颜色六十九集",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "episode": "六十九集",
+            "name": "女人的颜色"
+        }
+    },
+    {
+        "text": "薛平贵与王宝钏",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "薛平贵与王宝钏"
+        }
+    },
+    {
+        "text": "青春期撞上更年期二",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "青春期撞上更年期二"
+        }
+    },
+    {
+        "text": "命运派对",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "命运派对"
+        }
+    },
+    {
+        "text": "从长沙到北京的列车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京",
+            "startLoc_city": "长沙"
+        }
+    },
+    {
+        "text": "打开节目搜索",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "节目"
+        }
+    },
+    {
+        "text": "把李志强的号码发给贾洪鉴",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "李志强",
+            "receiver": "贾洪鉴"
+        }
+    },
+    {
+        "text": "搜索泰亚股份股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "泰亚股份"
+        }
+    },
+    {
+        "text": "我要看中央五台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央五台"
+        }
+    },
+    {
+        "text": "我的回复内容",
+        "domain": "email",
+        "intent": "REPLAY_ALL",
+        "slots": {}
+    },
+    {
+        "text": "请打开电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影"
+        }
+    },
+    {
+        "text": "给小阳发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "小阳"
+        }
+    },
+    {
+        "text": "回看上周五湖南卫视的宝莲灯",
+        "domain": "epg",
+        "intent": "LOOK_BACK",
+        "slots": {
+            "name": "宝莲灯",
+            "datetime_time": "上周五",
+            "tvchannel": "湖南卫视"
+        }
+    },
+    {
+        "text": "贵阳至长沙的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "长沙",
+            "startLoc_city": "贵阳"
+        }
+    },
+    {
+        "text": "幻影忍者",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "幻影忍者"
+        }
+    },
+    {
+        "text": "给青发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "青"
+        }
+    },
+    {
+        "text": "广东省英德在哪里",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_area": "英德",
+            "location_province": "广东省"
+        }
+    },
+    {
+        "text": "铁甲钢拳",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "铁甲钢拳"
+        }
+    },
+    {
+        "text": "查找桑拿",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "桑拿"
+        }
+    },
+    {
+        "text": "我想看喜羊羊",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "喜羊羊"
+        }
+    },
+    {
+        "text": "北京到镇江的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "镇江",
+            "startLoc_city": "北京"
+        }
+    },
+    {
+        "text": "一起听听新疆人民广播电台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "新疆人民广播电台"
+        }
+    },
+    {
+        "text": "古惑仔",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "古惑仔"
+        }
+    },
+    {
+        "text": "字谜你。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    },
+    {
+        "text": "安哥拉的英文是什么",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "安哥拉",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "开心大冒险",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "开心大冒险"
+        }
+    },
+    {
+        "text": "查一下到长途汽车站去的最省钱的线路",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "长途汽车站",
+            "type": "最省钱"
+        }
+    },
+    {
+        "text": "收听中国人民广播电台广播",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "中国人民广播电台广播"
+        }
+    },
+    {
+        "text": "我看呀中央五台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央五台"
+        }
+    },
+    {
+        "text": "广西新闻网",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "广西新闻网"
+        }
+    },
+    {
+        "text": "最近有什么科幻电影？",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {
+            "category": "科幻"
+        }
+    },
+    {
+        "text": "我不在家英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "我不在家",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "高清江苏",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "江苏",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "太阳第九集",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "episode": "第九集",
+            "name": "太阳"
+        }
+    },
+    {
+        "text": "我们下次什么时候在来一起看电影",
+        "domain": "cinemas",
+        "intent": "DATE_QUERY",
+        "slots": {}
+    },
+    {
+        "text": "查找90年代好评的武侠电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "decade": "90年代",
+            "payment": "好评",
+            "tag": "武侠"
+        }
+    },
+    {
+        "text": "陕西二套",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "陕西二套"
+        }
+    },
+    {
+        "text": "陈真",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "陈真"
+        }
+    },
+    {
+        "text": "帮我打开步步惊心",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "步步惊心"
+        }
+    },
+    {
+        "text": "宁乡到长沙怎么走",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "长沙",
+            "startLoc_area": "宁乡"
+        }
+    },
+    {
+        "text": "帮我查一下临海到上海的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "上海",
+            "startLoc_area": "临海"
+        }
+    },
+    {
+        "text": "搜索七乐彩的公示号码",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "七乐彩"
+        }
+    },
+    {
+        "text": "中国太保股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国太保"
+        }
+    },
+    {
+        "text": "杭州南站到龙游的火车有哪几班",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "龙游",
+            "startLoc_poi": "杭州南站"
+        }
+    },
+    {
+        "text": "刑侦电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "tag": "刑侦"
+        }
+    },
+    {
+        "text": "打电话到飞云",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "飞云"
+        }
+    },
+    {
+        "text": "打电话给卢静",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "卢静"
+        }
+    },
+    {
+        "text": "贺岁片",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "片",
+            "tag": "贺岁"
+        }
+    },
+    {
+        "text": "电影中国合伙人",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "中国合伙人"
+        }
+    },
+    {
+        "text": "查询泉州到上海的动车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "动车",
+            "endLoc_city": "上海",
+            "startLoc_city": "泉州"
+        }
+    },
+    {
+        "text": "李瑞英主持的最新的新闻节目",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "李瑞英",
+            "artistRole": "主持",
+            "category": "节目",
+            "tag": "新闻",
+            "timeDescr": "最新"
+        }
+    },
+    {
+        "text": "我想看电影超人",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "超人"
+        }
+    },
+    {
+        "text": "宏达高科的股票跌了没有",
+        "domain": "stock",
+        "intent": "RISERATE_QUERY",
+        "slots": {
+            "name": "宏达高科"
+        }
+    },
+    {
+        "text": "明天到合肥的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "合肥",
+            "startDate_date": "明天"
+        }
+    },
+    {
+        "text": "给王帅发个短信说他让他起来尿尿",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "让他起来尿尿",
+            "name": "王帅"
+        }
+    },
+    {
+        "text": "钢铁侠三",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "钢铁侠三"
+        }
+    },
+    {
+        "text": "我要看李连杰的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "李连杰",
+            "category": "电影"
+        }
+    },
+    {
+        "text": "发送短信给陈群",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "陈群"
+        }
+    },
+    {
+        "text": "帮我找到去安徽黄山的路",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "黄山",
+            "endLoc_province": "安徽"
+        }
+    },
+    {
+        "text": "永高股份的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "永高股份"
+        }
+    },
+    {
+        "text": "深圳至合肥的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "合肥",
+            "startLoc_city": "深圳"
+        }
+    },
+    {
+        "text": "我的爱金枝玉叶",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "我的爱金枝玉叶"
+        }
+    },
+    {
+        "text": "帮我查一下苏州到上海的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "上海",
+            "startLoc_city": "苏州"
+        }
+    },
+    {
+        "text": "播放神话",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "神话"
+        }
+    },
+    {
+        "text": "来点张艺谋出演的节目",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "张艺谋",
+            "artistRole": "出演",
+            "category": "节目"
+        }
+    },
+    {
+        "text": "打开新闻",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "女性时尚",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "女性时尚"
+        }
+    },
+    {
+        "text": "帮我查一下上一期的大乐透",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "大乐透",
+            "relIssue": "上一期"
+        }
+    },
+    {
+        "text": "我想看变形金刚哦",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "变形金刚"
+        }
+    },
+    {
+        "text": "给我打开mail",
+        "domain": "email",
+        "intent": "LAUNCH",
+        "slots": {}
+    },
+    {
+        "text": "上海能源这支股票怎么样",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "上海能源"
+        }
+    },
+    {
+        "text": "CCTV四套",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "CCTV四套"
+        }
+    },
+    {
+        "text": "江苏教育台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "江苏教育台"
+        }
+    },
+    {
+        "text": "查询宜春到南昌的火车列车时刻表",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南昌",
+            "startLoc_city": "宜春"
+        }
+    },
+    {
+        "text": "我要查看邮件",
+        "domain": "email",
+        "intent": "LAUNCH",
+        "slots": {}
+    },
+    {
+        "text": "帮我写一条新邮件",
+        "domain": "email",
+        "intent": "CREATE",
+        "slots": {}
+    },
+    {
+        "text": "最近有什么好看的电视连续剧武打的。",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视连续剧",
+            "scoreDescr": "好看",
+            "tag": "武打",
+            "timeDescr": "最近"
+        }
+    },
+    {
+        "text": "上饶到南昌的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南昌",
+            "startLoc_city": "上饶"
+        }
+    },
+    {
+        "text": "给我念首古诗。",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "查询神鬼认证",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "神鬼认证"
+        }
+    },
+    {
+        "text": "x战警第一部",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "x战警",
+            "season": "第一部"
+        }
+    },
+    {
+        "text": "查一下最近有什么电影？",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "查阅短消息",
+        "domain": "message",
+        "intent": "VIEW",
+        "slots": {}
+    },
+    {
+        "text": "查一查同方股份的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "同方股份"
+        }
+    },
+    {
+        "text": "电视剧火凤凰",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "name": "火凤凰"
+        }
+    },
+    {
+        "text": "远教四台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "远教四台"
+        }
+    },
+    {
+        "text": "2013年的警匪电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "datetime_date": "2013年",
+            "tag": "警匪"
+        }
+    },
+    {
+        "text": "给园园发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "园园"
+        }
+    },
+    {
+        "text": "安徽综艺",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "安徽综艺"
+        }
+    },
+    {
+        "text": "上美空网",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "美空网"
+        }
+    },
+    {
+        "text": "独立纵队电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "name": "独立纵队"
+        }
+    },
+    {
+        "text": "潍坊到济南的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "济南",
+            "startLoc_city": "潍坊"
+        }
+    },
+    {
+        "text": "2013年陈可辛导演的好看的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "陈可辛",
+            "artistRole": "导演",
+            "category": "电影",
+            "datetime_date": "2013年",
+            "scoreDescr": "好看"
+        }
+    },
+    {
+        "text": "帮我调频92.4中国国际广播电台行不行？",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "92.4",
+            "name": "中国国际广播电台"
+        }
+    },
+    {
+        "text": "替我打开新邮件",
+        "domain": "email",
+        "intent": "LAUNCH",
+        "slots": {}
+    },
+    {
+        "text": "给金华打电话",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "金华"
+        }
+    },
+    {
+        "text": "一千五英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "一千五",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "买三注星期四开奖的七乐彩",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "datetime_date": "星期四",
+            "name": "七乐彩"
+        }
+    },
+    {
+        "text": "呼叫a 二小姐",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "二小姐"
+        }
+    },
+    {
+        "text": "最近有什么好看得",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "scoreDescr": "好看",
+            "timeDescr": "最近"
+        }
+    },
+    {
+        "text": "帮我查一下洛阳到赣州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "赣州",
+            "startLoc_city": "洛阳"
+        }
+    },
+    {
+        "text": "听江苏交通广播网",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "江苏交通广播"
+        }
+    },
+    {
+        "text": "发信息给健美",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "健美"
+        }
+    },
+    {
+        "text": "帮我查一下广州到深圳的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "深圳",
+            "startLoc_city": "广州"
+        }
+    },
+    {
+        "text": "要看名侦探柯南",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "名侦探柯南"
+        }
+    },
+    {
+        "text": "请帮我放一下剩女保镖",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "剩女保镖"
+        }
+    },
+    {
+        "text": "生活大爆炸",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "生活大爆炸"
+        }
+    },
+    {
+        "text": "中央八",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央八"
+        }
+    },
+    {
+        "text": "帮我找一找龙门飞甲",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "龙门飞甲"
+        }
+    },
+    {
+        "text": "我要看湖南台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "湖南台"
+        }
+    },
+    {
+        "text": "当婆婆遇上妈",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "当婆婆遇上妈"
+        }
+    },
+    {
+        "text": "查查一下连江到湛江的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "湛江",
+            "startLoc_area": "连江"
+        }
+    },
+    {
+        "text": "查下银星能源股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "银星能源"
+        }
+    },
+    {
+        "text": "潜山到福州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "福州",
+            "startLoc_area": "潜山"
+        }
+    },
+    {
+        "text": "98.4香港电台第四台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "98.4",
+            "name": "香港电台第四台"
+        }
+    },
+    {
+        "text": "美国恐怖电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "美国",
+            "category": "电影",
+            "tag": "恐怖"
+        }
+    },
+    {
+        "text": "查询安阳到郑州的动车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "动车",
+            "endLoc_city": "郑州",
+            "startLoc_city": "安阳"
+        }
+    },
+    {
+        "text": "查询柳州到昆明的列车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "昆明",
+            "startLoc_city": "柳州"
+        }
+    },
+    {
+        "text": "代码000800的股票涨幅是多少",
+        "domain": "stock",
+        "intent": "RISERATE_QUERY",
+        "slots": {
+            "code": "000800"
+        }
+    },
+    {
+        "text": "帮我翻译一下番茄",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "番茄"
+        }
+    },
+    {
+        "text": "安徽合力股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "安徽合力"
+        }
+    },
+    {
+        "text": "腾讯公司的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "腾讯"
+        }
+    },
+    {
+        "text": "猜个谜语哦。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "请帮我调频89.6武汉交通广播电台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "89.6",
+            "name": "武汉交通广播电台"
+        }
+    },
+    {
+        "text": "看千金归来第五集",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "episode": "第五集",
+            "name": "千金归来"
+        }
+    },
+    {
+        "text": "有什么新电影",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "你会猜谜语吗？",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "爱在何方第三期",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "episode": "第三期",
+            "name": "爱在何方"
+        }
+    },
+    {
+        "text": "不是我是说我给你猜个谜语吧！",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "能帮我收听淄博音乐广播",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "淄博音乐广播"
+        }
+    },
+    {
+        "text": "小说英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "小说",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "查一下沿途的科大讯飞",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "科大讯飞"
+        }
+    },
+    {
+        "text": "搜索最近的，科幻电影。",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "tag": "科幻",
+            "timeDescr": "最近"
+        }
+    },
+    {
+        "text": "发短信给王亮说死人你在干什么呢",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "死人你在干什么呢",
+            "name": "王亮"
+        }
+    },
+    {
+        "text": "广州到孝感的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "孝感",
+            "startLoc_city": "广州"
+        }
+    },
+    {
+        "text": "昆山大润发在哪里",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_area": "昆山",
+            "location_poi": "大润发"
+        }
+    },
+    {
+        "text": "老版红楼梦",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "红楼梦"
+        }
+    },
+    {
+        "text": "正者无敌",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "正者无敌"
+        }
+    },
+    {
+        "text": "来个灯谜吧！",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "灯谜"
+        }
+    },
+    {
+        "text": "查一下到洛阳的高铁",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "高铁",
+            "endLoc_city": "洛阳"
+        }
+    },
+    {
+        "text": "查寻来宾到柳州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "柳州",
+            "startLoc_city": "来宾"
+        }
+    },
+    {
+        "text": "我想知道科大讯飞的市值",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "科大讯飞"
+        }
+    },
+    {
+        "text": "大头儿子小头爸爸",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "大头儿子小头爸爸"
+        }
+    },
+    {
+        "text": "打电话给张志国",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "张志国"
+        }
+    },
+    {
+        "text": "我不明白用英文怎么讲",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "我不明白",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "给xxx某回复邮件",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {
+            "name": "xxx某"
+        }
+    },
+    {
+        "text": "温州到瑞昌的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "瑞昌",
+            "startLoc_city": "温州"
+        }
+    },
+    {
+        "text": "调到新疆综艺",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "新疆综艺"
+        }
+    },
+    {
+        "text": "我想看搞定岳父大人电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "搞定岳父大人"
+        }
+    },
+    {
+        "text": "小兵张嘎电影儿",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "小兵张嘎"
+        }
+    },
+    {
+        "text": "五号特工组",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "五号特工组"
+        }
+    },
+    {
+        "text": "江苏影视台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "江苏影视台"
+        }
+    },
+    {
+        "text": "给杨李鹏发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "杨李鹏"
+        }
+    },
+    {
+        "text": "你给朴叔打电话",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "朴叔"
+        }
+    },
+    {
+        "text": "江山",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "江山"
+        }
+    },
+    {
+        "text": "查一下苏州到洛阳的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "洛阳",
+            "startLoc_city": "苏州"
+        }
+    },
+    {
+        "text": "打电话给李新颖",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "李新颖"
+        }
+    },
+    {
+        "text": "四月六号南宁到上海的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "上海",
+            "startDate_date": "四月六号",
+            "startLoc_city": "南宁"
+        }
+    },
+    {
+        "text": "在线观看中央七套",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央七套"
+        }
+    },
+    {
+        "text": "我想打你英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "我想打你",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "西红柿用英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "西红柿",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "请播放一下举起手来",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "举起手来"
+        }
+    },
+    {
+        "text": "打石宝电话",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "石宝"
+        }
+    },
+    {
+        "text": "从合肥去西安的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "西安",
+            "startLoc_city": "合肥"
+        }
+    },
+    {
+        "text": "上海宝钢股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "宝钢"
+        }
+    },
+    {
+        "text": "合肥明天的湿度如何",
+        "domain": "weather",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "明天",
+            "location_city": "合肥",
+            "subfocus": "湿度"
+        }
+    },
+    {
+        "text": "中信证券股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中信证券"
+        }
+    },
+    {
+        "text": "查询海螺水泥的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "海螺水泥"
+        }
+    },
+    {
+        "text": "居然股份股票怎么样",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "居然股份"
+        }
+    },
+    {
+        "text": "爱在旅途",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "爱在旅途"
+        }
+    },
+    {
+        "text": "查一下兰州到成都的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "成都",
+            "startLoc_city": "兰州"
+        }
+    },
+    {
+        "text": "但是我想上腾讯网",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "腾讯网"
+        }
+    },
+    {
+        "text": "我要猜字谜不笨有答案。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    },
+    {
+        "text": "打电话给王宇婕",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "王宇婕"
+        }
+    },
+    {
+        "text": "福尔摩斯",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "福尔摩斯"
+        }
+    },
+    {
+        "text": "看乡村爱情",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "name": "乡村爱情"
+        }
+    },
+    {
+        "text": "明天广州到北京的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京",
+            "startDate_date": "明天",
+            "startLoc_city": "广州"
+        }
+    },
+    {
+        "text": "列车深圳到广州",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "广州",
+            "startLoc_city": "深圳"
+        }
+    },
+    {
+        "text": "从连云港到北京该怎么走",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "北京",
+            "startLoc_city": "连云港"
+        }
+    },
+    {
+        "text": "热血动漫",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "动漫",
+            "tag": "热血"
+        }
+    },
+    {
+        "text": "今天有雨吗",
+        "domain": "weather",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "今天",
+            "questionWord": "有",
+            "subfocus": "雨"
+        }
+    },
+    {
+        "text": "我想要看很火的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "popularity": "火"
+        }
+    },
+    {
+        "text": "智慧树",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "智慧树"
+        }
+    },
+    {
+        "text": "查询三一重工股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "三一重工"
+        }
+    },
+    {
+        "text": "导航到建八路",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "建八路"
+        }
+    },
+    {
+        "text": "先锋乒羽",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "先锋乒羽"
+        }
+    },
+    {
+        "text": "央3",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "央3"
+        }
+    },
+    {
+        "text": "我要当八路军",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "我要当八路军"
+        }
+    },
+    {
+        "text": "高尔夫网球",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "高尔夫网球"
+        }
+    },
+    {
+        "text": "打开百度啊",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "百度"
+        }
+    },
+    {
+        "text": "移动公司在哪里呀",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "移动公司"
+        }
+    },
+    {
+        "text": "游戏竞技频道",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "游戏竞技频道"
+        }
+    },
+    {
+        "text": "伊利股份股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "伊利股份"
+        }
+    },
+    {
+        "text": "给黄杠发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "黄杠"
+        }
+    },
+    {
+        "text": "查一下济南到潍坊昌乐的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "昌乐",
+            "endLoc_city": "潍坊",
+            "startLoc_city": "济南"
+        }
+    },
+    {
+        "text": "请帮我查找一下奥特曼大电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "奥特曼大电影"
+        }
+    },
+    {
+        "text": "回看本周的快乐大本营",
+        "domain": "epg",
+        "intent": "LOOK_BACK",
+        "slots": {
+            "name": "快乐大本营",
+            "datetime_time": "本周"
+        }
+    },
+    {
+        "text": "读心专家",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "读心专家"
+        }
+    },
+    {
+        "text": "搜索中国移动的股市行情",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国移动"
+        }
+    },
+    {
+        "text": "搜索中国移动股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国移动"
+        }
+    },
+    {
+        "text": "中央台五套",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央台五套"
+        }
+    },
+    {
+        "text": "查寻上海能源的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "上海能源"
+        }
+    },
+    {
+        "text": "我要购买七乐彩",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "七乐彩"
+        }
+    },
+    {
+        "text": "中国教育电视台三台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中国教育电视台三台"
+        }
+    },
+    {
+        "text": "高清动作电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "resolution": "高清",
+            "tag": "动作"
+        }
+    },
+    {
+        "text": "你好丑用英文怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "你好丑",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "查寻科大讯飞的股",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "科大讯飞"
+        }
+    },
+    {
+        "text": "发条短信给张亚东",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "张亚东"
+        }
+    },
+    {
+        "text": "麻烦您可不可以帮我调频98.5扬州人民广播电台新闻台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "98.5",
+            "name": "扬州人民广播电台新闻台"
+        }
+    },
+    {
+        "text": "帮我查一下赣州到南昌的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南昌",
+            "startLoc_city": "赣州"
+        }
+    },
+    {
+        "text": "我们现在在什么地方",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {}
+    },
+    {
+        "text": "老故事",
+        "domain": "story",
+        "intent": "QUERY",
+        "slots": {
+            "category": "老故事"
+        }
+    },
+    {
+        "text": "美国热门的恐怖电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "美国",
+            "category": "电影",
+            "popularity": "热门",
+            "tag": "恐怖"
+        }
+    },
+    {
+        "text": "你知道中国科技大学在哪里吗",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "中国科技大学"
+        }
+    },
+    {
+        "text": "电影私人定制",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "私人定制"
+        }
+    },
+    {
+        "text": "查看一条短消息",
+        "domain": "message",
+        "intent": "VIEW",
+        "slots": {}
+    },
+    {
+        "text": "花开半夏",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "花开半夏"
+        }
+    },
+    {
+        "text": "湖北电视台高清",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "湖北电视台",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "查下李宁公司的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "李宁"
+        }
+    },
+    {
+        "text": "能不能帮我接听中广流行网",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "中广流行网"
+        }
+    },
+    {
+        "text": "宜家",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "宜家"
+        }
+    },
+    {
+        "text": "打一个谜语男人的腿残。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "搜索电影晚秋",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "晚秋"
+        }
+    },
+    {
+        "text": "念首诗听一下。",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "我想看周星驰的喜剧电影喜剧之王",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "周星驰",
+            "category": "电影",
+            "name": "喜剧之王",
+            "tag": "喜剧"
+        }
+    },
+    {
+        "text": "给木九超打电话",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "木九超"
+        }
+    },
+    {
+        "text": "美菱电器的昨日收盘价是多少",
+        "domain": "stock",
+        "intent": "CLOSEPRICE_QUERY",
+        "slots": {
+            "name": "美菱电器",
+            "yesterday": "昨日"
+        }
+    },
+    {
+        "text": "换江苏卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "江苏卫视"
+        }
+    },
+    {
+        "text": "央视精品节目",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "央视精品"
+        }
+    },
+    {
+        "text": "查一下杭州到鹰潭的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "鹰潭",
+            "startLoc_city": "杭州"
+        }
+    },
+    {
+        "text": "赛罗奥特曼",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "赛罗奥特曼"
+        }
+    },
+    {
+        "text": "帮我发条短信吧",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {}
+    },
+    {
+        "text": "搞笑谜语。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "搞笑谜语"
+        }
+    },
+    {
+        "text": "那来个灯谜吧！",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "灯谜"
+        }
+    },
+    {
+        "text": "来一个选秀节目",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "节目",
+            "tag": "选秀"
+        }
+    },
+    {
+        "text": "把王建春的电话号码发给张学政",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "王建春",
+            "receiver": "张学政"
+        }
+    },
+    {
+        "text": "洛阳至西安的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "西安",
+            "startLoc_city": "洛阳"
+        }
+    },
+    {
+        "text": "帮我在百度里搜一下东莞到北京的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京",
+            "startLoc_city": "东莞"
+        }
+    },
+    {
+        "text": "我想看变形金刚三",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "变形金刚三"
+        }
+    },
+    {
+        "text": "转发mail给xxx某",
+        "domain": "email",
+        "intent": "FORWARD",
+        "slots": {
+            "name": "xxx某"
+        }
+    },
+    {
+        "text": "最近有什么影片？",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "深圳到开封的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "开封",
+            "startLoc_city": "深圳"
+        }
+    },
+    {
+        "text": "我想写一个新邮件",
+        "domain": "email",
+        "intent": "CREATE",
+        "slots": {}
+    },
+    {
+        "text": "明天南京到徐州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "徐州",
+            "startDate_date": "明天",
+            "startLoc_city": "南京"
+        }
+    },
+    {
+        "text": "风车第十五集",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "episode": "第十五集",
+            "name": "风车"
+        }
+    },
+    {
+        "text": "帮我查一下赣州到杭州的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "杭州",
+            "startLoc_city": "赣州"
+        }
+    },
+    {
+        "text": "香港杜琪峰导演的喜剧孤男寡女",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "香港",
+            "artist": "杜琪峰",
+            "artistRole": "导演",
+            "name": "孤男寡女",
+            "tag": "喜剧"
+        }
+    },
+    {
+        "text": "满秋",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "满秋"
+        }
+    },
+    {
+        "text": "欧阳震华的罪案电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "欧阳震华",
+            "category": "电视剧",
+            "tag": "罪案"
+        }
+    },
+    {
+        "text": "来个字谜我猜一下。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    },
+    {
+        "text": "查一下南昌到南京的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南京",
+            "startLoc_city": "南昌"
+        }
+    },
+    {
+        "text": "什么时候才能再次观看",
+        "domain": "cinemas",
+        "intent": "DATE_QUERY",
+        "slots": {}
+    },
+    {
+        "text": "从合肥到北京的列车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京",
+            "startLoc_city": "合肥"
+        }
+    },
+    {
+        "text": "让我猜个谜语。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "你去玩手机了吧用英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "你去玩手机了吧",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "我想看大武当电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "大武当"
+        }
+    },
+    {
+        "text": "讲个谜语猜一下。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "杰瑞股份股价",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "杰瑞股份"
+        }
+    },
+    {
+        "text": "一个鬼子都不留",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "一个鬼子都不留"
+        }
+    },
+    {
+        "text": "中国新闻网网站",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "中国新闻网"
+        }
+    },
+    {
+        "text": "那会不会下雨",
+        "domain": "weather",
+        "intent": "QUERY",
+        "slots": {
+            "questionWord": "会不会",
+            "subfocus": "雨"
+        }
+    },
+    {
+        "text": "哦我想看中央一台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央一台"
+        }
+    },
+    {
+        "text": "海南旅游卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "旅游卫视"
+        }
+    },
+    {
+        "text": "搜索天后",
+        "domain": "music",
+        "intent": "SEARCH",
+        "slots": {
+            "song": "天后"
+        }
+    },
+    {
+        "text": "我想上网易",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "网易"
+        }
+    },
+    {
+        "text": "明天去蚌埠的车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "蚌埠",
+            "startDate_date": "明天"
+        }
+    },
+    {
+        "text": "你今天去了哪里用英文怎么讲",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "你今天去了哪里",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "帮我查询一下温州到上海的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "上海",
+            "startLoc_city": "温州"
+        }
+    },
+    {
+        "text": "下载张杰的逆战",
+        "domain": "music",
+        "intent": "DOWNLOAD",
+        "slots": {
+            "artist": "张杰",
+            "song": "逆战"
+        }
+    },
+    {
+        "text": "好看足球比赛",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "scoreDescr": "好看",
+            "tag": "足球比赛"
+        }
+    },
+    {
+        "text": "新扎师妹",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "新扎师妹"
+        }
+    },
+    {
+        "text": "替我查看新邮件",
+        "domain": "email",
+        "intent": "LAUNCH",
+        "slots": {}
+    },
+    {
+        "text": "天机富春山居图",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "天机富春山居图"
+        }
+    },
+    {
+        "text": "查询一下讯飞科大今天的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "讯飞科大"
+        }
+    },
+    {
+        "text": "查询濮耐股份的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "濮耐股份"
+        }
+    },
+    {
+        "text": "海棉宝宝",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "海棉宝宝"
+        }
+    },
+    {
+        "text": "厦门到福建建阳的火车是几点呢",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "建阳",
+            "endLoc_province": "福建",
+            "startLoc_city": "厦门"
+        }
+    },
+    {
+        "text": "湖北荆州到黄石的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "黄石",
+            "startLoc_city": "荆州",
+            "startLoc_province": "湖北"
+        }
+    },
+    {
+        "text": "给我找最新的盗梦空间",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "盗梦空间",
+            "timeDescr": "最新"
+        }
+    },
+    {
+        "text": "动画片巴啦啦小魔仙",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "片",
+            "name": "巴啦啦小魔仙",
+            "tag": "动画"
+        }
+    },
+    {
+        "text": "看中国好声音",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国好声音"
+        }
+    },
+    {
+        "text": "给我讲一个谜语吧！",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "韩国电视连续剧老大",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "韩国",
+            "category": "电视连续剧",
+            "name": "老大"
+        }
+    },
+    {
+        "text": "答复xxx某邮件",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {
+            "name": "xxx某"
+        }
+    },
+    {
+        "text": "从新加坡花园怎么去宁溪路",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "宁溪路",
+            "startLoc_poi": "新加坡花园"
+        }
+    },
+    {
+        "text": "CCTV7军事农业",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "CCTV7军事农业"
+        }
+    },
+    {
+        "text": "广州去昆明的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "昆明",
+            "startLoc_city": "广州"
+        }
+    },
+    {
+        "text": "新浪汽车",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "新浪汽车"
+        }
+    },
+    {
+        "text": "捍卫者",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "捍卫者"
+        }
+    },
+    {
+        "text": "去汽车南站怎么走",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "汽车南站"
+        }
+    },
+    {
+        "text": "查一下潍坊到威海的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "威海",
+            "startLoc_city": "潍坊"
+        }
+    },
+    {
+        "text": "甄嬛传高清",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "甄嬛传",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "苍狼",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "苍狼"
+        }
+    },
+    {
+        "text": "爱情公约",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "爱情公约"
+        }
+    },
+    {
+        "text": "有没有张艺谋导演的热门电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "张艺谋",
+            "artistRole": "导演",
+            "category": "电影",
+            "popularity": "热门"
+        }
+    },
+    {
+        "text": "请帮我调频105.8南京人民广播电台音乐台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "105.8",
+            "name": "南京人民广播电台音乐台"
+        }
+    },
+    {
+        "text": "美好的时代",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "美好的时代"
+        }
+    },
+    {
+        "text": "我要上网打开百度",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "百度"
+        }
+    },
+    {
+        "text": "贵溪至泉州的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "泉州",
+            "startLoc_area": "贵溪"
+        }
+    },
+    {
+        "text": "我要和妹妹睡觉英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "我要和妹妹睡觉",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "中央十一台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央十一台"
+        }
+    },
+    {
+        "text": "南光集团怎么走",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "南光集团"
+        }
+    },
+    {
+        "text": "通宝能源股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "通宝能源"
+        }
+    },
+    {
+        "text": "西藏卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "西藏卫视"
+        }
+    },
+    {
+        "text": "厦门到赣州的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "赣州",
+            "startLoc_city": "厦门"
+        }
+    },
+    {
+        "text": "讲一个谜语和答案。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "打开珠江台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "珠江台"
+        }
+    },
+    {
+        "text": "英雄本色电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "英雄本色"
+        }
+    },
+    {
+        "text": "到无锡到北京的火车有几趟了",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京",
+            "startLoc_city": "无锡"
+        }
+    },
+    {
+        "text": "高清央视综艺",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "央视综艺",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "本省农村广播",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "category": "农村",
+            "name": "本省农村广播"
+        }
+    },
+    {
+        "text": "我想看爱情闯进门",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "爱情闯进门"
+        }
+    },
+    {
+        "text": "明天到郑州的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "郑州",
+            "startDate_date": "明天"
+        }
+    },
+    {
+        "text": "科大讯飞今天的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "科大讯飞"
+        }
+    },
+    {
+        "text": "我的幸福",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "我的幸福"
+        }
+    },
+    {
+        "text": "妖精的尾巴",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "妖精的尾巴"
+        }
+    },
+    {
+        "text": "打电话给阿敏",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "阿敏"
+        }
+    },
+    {
+        "text": "来一个字谜，二。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    },
+    {
+        "text": "当前不再呼叫英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "当前不再呼叫",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "明天有火车到襄阳吗",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "襄阳",
+            "startDate_date": "明天"
+        }
+    },
+    {
+        "text": "去广州的火车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "广州"
+        }
+    },
+    {
+        "text": "帮我网上订车票",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "给杨斌发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "杨斌"
+        }
+    },
+    {
+        "text": "请帮我调一下电台到镇江新闻广播",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "镇江新闻广播"
+        }
+    },
+    {
+        "text": "汉武大帝",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "汉武大帝"
+        }
+    },
+    {
+        "text": "江苏影视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "江苏影视"
+        }
+    },
+    {
+        "text": "女子特警队之火凤凰",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "女子特警队之火凤凰"
+        }
+    },
+    {
+        "text": "猫眼三姐妹",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "猫眼三姐妹"
+        }
+    },
+    {
+        "text": "换到米老鼠",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "米老鼠"
+        }
+    },
+    {
+        "text": "你好请问一下明天广州的天气如何",
+        "domain": "weather",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "明天",
+            "location_city": "广州"
+        }
+    },
+    {
+        "text": "武间道",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "武间道"
+        }
+    },
+    {
+        "text": "北京财经",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "北京财经"
+        }
+    },
+    {
+        "text": "中央电视台电影频道",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央电视台电影频道"
+        }
+    },
+    {
+        "text": "杨三姐告状",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "杨三姐告状"
+        }
+    },
+    {
+        "text": "播放法制进行时",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "法制进行时"
+        }
+    },
+    {
+        "text": "双色球的开奖号码是多少？",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "双色球"
+        }
+    },
+    {
+        "text": "人民公园在哪里",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "人民公园"
+        }
+    },
+    {
+        "text": "播放特种兵之利刃出鞘",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "特种兵之利刃出鞘"
+        }
+    },
+    {
+        "text": "刘三姐",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "刘三姐"
+        }
+    },
+    {
+        "text": "蓝精灵电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "蓝精灵"
+        }
+    },
+    {
+        "text": "讲一个谜语，啊，你，哦。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "金瓶梅",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "金瓶梅"
+        }
+    },
+    {
+        "text": "给德师傅发短信",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "德师傅"
+        }
+    },
+    {
+        "text": "请查询丰城到南昌的火车列车列车时刻表",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "南昌",
+            "startLoc_area": "丰城"
+        }
+    },
+    {
+        "text": "科大讯飞昨日成交价",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "科大讯飞",
+            "yesterday": "昨日"
+        }
+    },
+    {
+        "text": "高清央视综合频道",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "央视综合频道",
+            "resolution": "高清"
+        }
+    },
+    {
+        "text": "伊利股份",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "伊利股份"
+        }
+    },
+    {
+        "text": "去枣庄的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "枣庄"
+        }
+    },
+    {
+        "text": "帮我调到安徽卫视",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "安徽卫视"
+        }
+    },
+    {
+        "text": "截止目前银鸽投资股份的市值是多少",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "银鸽投资"
+        }
+    },
+    {
+        "text": "桔子英文怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "桔子",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "推理动漫",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "动漫",
+            "tag": "推理"
+        }
+    },
+    {
+        "text": "帮我转发这条mail给xxx某",
+        "domain": "email",
+        "intent": "FORWARD",
+        "slots": {
+            "name": "xxx某"
+        }
+    },
+    {
+        "text": "魔幻手机",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "魔幻手机"
+        }
+    },
+    {
+        "text": "爆笑谜语",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "谜语"
+        }
+    },
+    {
+        "text": "查一下那个南京到昆明的火车",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "昆明",
+            "startLoc_city": "南京"
+        }
+    },
+    {
+        "text": "查看5条最近的短消息",
+        "domain": "message",
+        "intent": "VIEW",
+        "slots": {
+            "datetime_time": "最近"
+        }
+    },
+    {
+        "text": "查询洛阳钼业的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "洛阳钼业"
+        }
+    },
+    {
+        "text": "回复xxx某的邮件",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {
+            "name": "xxx某"
+        }
+    },
+    {
+        "text": "大乐透的开奖情况",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "大乐透"
+        }
+    },
+    {
+        "text": "我要看下中央六套",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "中央六套"
+        }
+    },
+    {
+        "text": "大家今天心情如何用英语怎么说",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "大家今天心情如何",
+            "target": "英语"
+        }
+    },
+    {
+        "text": "富瑞特装股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "富瑞特装"
+        }
+    },
+    {
+        "text": "平安保险的股票价格",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "平安保险"
+        }
+    },
+    {
+        "text": "查个字谜。",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    },
+    {
+        "text": "海清主演的隐入尘烟什么时候播出",
+        "domain": "cinemas",
+        "intent": "DATE_QUERY",
+        "slots": {
+            "name": "隐入尘烟",
+            "artist": "海清"
+        }
+    },
+    {
+        "text": "我想看张艺谋导演的电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "张艺谋",
+            "artistRole": "导演",
+            "category": "电影"
+        }
+    },
+    {
+        "text": "九阴真经",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "九阴真经"
+        }
+    },
+    {
+        "text": "查询大力传媒的股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "大力传媒"
+        }
+    },
+    {
+        "text": "情债",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "name": "情债"
+        }
+    },
+    {
+        "text": "那么最近有什么好电影呢？",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "scoreDescr": "好",
+            "timeDescr": "最近"
+        }
+    },
+    {
+        "text": "铁甲威虫",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "铁甲威虫"
+        }
+    },
+    {
+        "text": "看看最近有什么电影？",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "帮我调转到风云音乐频道",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "风云音乐频道"
+        }
+    },
+    {
+        "text": "下载QQ音乐中所有的古风音乐",
+        "domain": "music",
+        "intent": "DOWNLOAD",
+        "slots": {
+            "app": "QQ音乐",
+            "name": "古风音乐"
+        }
+    },
+    {
+        "text": "打电话给三路店",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "三路店"
+        }
+    },
+    {
+        "text": "心术电影",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电影",
+            "name": "心术"
+        }
+    },
+    {
+        "text": "最近有什么好看电影了？",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "中国新声代",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国新声代"
+        }
+    },
+    {
+        "text": "地心历险记二",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "地心历险记二"
+        }
+    },
+    {
+        "text": "北京财经台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "北京财经台"
+        }
+    },
+    {
+        "text": "很高兴见到你英文怎么讲",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "很高兴见到你",
+            "target": "英文"
+        }
+    },
+    {
+        "text": "CCTV少儿",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "CCTV少儿"
+        }
+    },
+    {
+        "text": "看动物卡通",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "tag": "动物卡通"
+        }
+    },
+    {
+        "text": "查询一汽轿车股票",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "一汽轿车"
+        }
+    },
+    {
+        "text": "中国合伙人",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "中国合伙人"
+        }
+    },
+    {
+        "text": "请帮我调频106.1长沙音乐广播电台",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "106.1",
+            "name": "长沙音乐广播电台"
+        }
+    },
+    {
+        "text": "宿州到北京的火车有哪些",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "北京",
+            "startLoc_city": "宿州"
+        }
+    },
+    {
+        "text": "发信息给熊伟",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "熊伟"
+        }
+    },
+    {
+        "text": "下半年的电视剧",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "电视剧",
+            "datetime_date": "下半年"
+        }
+    },
+    {
+        "text": "吉林电视台",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "吉林电视台"
+        }
+    },
+    {
+        "text": "来个字谜吗？",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "字谜"
+        }
+    }
+]
