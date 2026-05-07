@@ -1,0 +1,168 @@
+prompt_template:
+通用实体识别, 实体类型有: {candidate_entity_names}.
+
+文本:
+{text}
+
+
+输出格式如下:
+Entity: 文本, 来自于原文本中的实体文本.
+Label: 实体类型, 必须是给定的实体类型之一, 不要编造.
+
+注意:
+1. 要尽可能多地输出实体.
+2. Entity 和 Label 应该分别占用一行.
+3. 找不到任何实体时, 可回答: 没有实体.
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "Entity: {entity_text}\nLabel: {entity_name}", "candidate_entity_names_sep": "; ", "no_entity_template": "没有实体. "}
+
+--- [define prompt template end] ---
+
+prompt_template:
+通用实体识别, 实体类型有: {candidate_entity_names}.
+
+文本:
+{text}
+
+output:
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "Entity: {entity_text}\nLabel: {entity_name}", "candidate_entity_names_sep": "; ", "no_entity_template": "没有实体. "}
+
+--- [define prompt template end] ---
+
+prompt_template:
+实体识别, {candidate_entity_names}.
+
+文本:
+------
+{text}
+------
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "EntityName: {entity_text}\nEntityLabel: {entity_name}", "candidate_entity_names_sep": "; ", "no_entity_template": "没有找到任何实体. "}
+
+--- [define prompt template end] ---
+
+prompt_template:
+请从以下句子中提取 {candidate_entity_names} 实体类型.
+------
+{text}
+------
+
+注意:
+1. 输出的每一行都必须是正确的 json 字符串, 包含 key: "entity_text", "entity_label".
+2. 找不到实体时, 输出: 没有找到任何实体.
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "{{\"entity_text\": \"{entity_text}\", \"entity_label\": \"{entity_name}\"}}", "candidate_entity_names_sep": "; ", "no_entity_template": "没有找到任何实体. "}
+
+--- [define prompt template end] ---
+
+prompt_template:
+从下句子中提取 {candidate_entity_names} 实体.
+```
+{text}
+```
+
+以 json 格式输出, 如;
+{{"entity_text": ${{entity_text}}, "entity_label": ${{entity_label}}}}
+
+注意:
+1. 输出的每一行都必须是正确的 json 字符串.
+2. 找不到任何实体时, 输出空字符串.
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "{{\"entity_text\": \"{entity_text}\", \"entity_label\": \"{entity_name}\"}}", "candidate_entity_names_sep": "; ", "no_entity_template": ""}
+
+--- [define prompt template end] ---
+
+prompt_template:
+实体识别, 请从以下句子中识别出所有的 `{candidate_entity_names}`, 多个实体用英文逗号分隔.
+{text}
+
+response_template:
+{entity_name_to_text_list}
+
+kwargs:
+{"entity_name_to_text_list_sep": "\n", "entity_template": "实体 `{entity_name}` 有: {entity_text_list}", "entity_text_sep": ", ", "candidate_entity_names_sep": "`, `", "no_entity_template": "没有从`{text}`中找到任何关于`{candidate_entity_names}`的实体. "}
+
+--- [define prompt template end] ---
+
+prompt_template:
+实体识别, 请从以下句子中识别出所有的 `{candidate_entity_names}`, 多个实体用英文分号分隔.
+{text}
+
+response_template:
+{entity_name_to_text_list}
+
+kwargs:
+{"entity_name_to_text_list_sep": "\n", "entity_template": "{entity_name}: {entity_text_list}", "entity_text_sep": "; ", "candidate_entity_names_sep": "`, `", "no_entity_template": "没有找到任何关于`{candidate_entity_names}`的实体. "}
+
+--- [define prompt template end] ---
+
+prompt_template:
+从给定的句子中提取 {candidate_entity_names} 实体.
+
+以 json 格式输出, 如;
+{{"entity_text": ${{entity_text}}, "entity_label": ${{entity_label}}}}
+
+注意:
+1. 输出的每一行都必须是正确的 json 字符串.
+2. 找不到任何实体时, 输出空字符串.
+
+text:
+```
+{text}
+```
+
+output:
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "{{\"entity_text\": \"{entity_text}\", \"entity_label\": \"{entity_name}\"}}", "candidate_entity_names_sep": "; ", "no_entity_template": ""}
+
+--- [define prompt template end] ---
+
+prompt_template:
+从给定的句子中提取实体.
+
+以 json 格式输出, 如:
+{{"entity_text": ${{entity_text}}, "entity_label": ${{entity_label}}}}
+
+注意:
+1. 输出的每一行都必须是正确的 json 字符串.
+2. 找不到任何实体时, 输出空字符串.
+
+候选实体类型: {candidate_entity_names}.
+
+text:
+```
+{text}
+```
+
+output:
+
+response_template:
+{entity_list}
+
+kwargs:
+{"sample_all": true, "entity_list_sep": "\n", "entity_template": "{{\"entity_text\": \"{entity_text}\", \"entity_label\": \"{entity_name}\"}}", "candidate_entity_names_sep": "; ", "no_entity_template": ""}
